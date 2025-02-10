@@ -1,0 +1,43 @@
+.outerContainer{
+    border:2px solid black ;
+    width: 700px;
+    height: 700px;
+    display : flex ;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.inputBox{
+    border:2px solid black ;
+    margin: 5px 5px 5px 5px;
+    height: 80px;
+    
+}
+.operation{
+    border:2px solid black ;
+    margin: 5px 5px 5px 5px;
+}
+body{
+    display: flex ;
+    justify-content: center;
+    vertical-align: center;
+    
+
+}
+.calculatorBody{
+    width: 500px;
+    height: 500px;
+    border :2px solid black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.inputText{
+    height: 80px;
+    padding: 0 0 0 0;
+    border: 1px solid black;
+    width: 490px;
+}
